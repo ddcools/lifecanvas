@@ -1,6 +1,7 @@
 // routes/routes.js
 import Signup from "../components/Signup/Signup";
 import Home from "../components/Home/Home";
+import Profile from '../components/Profile/Profile';
 
 const routes = [
   {
@@ -11,6 +12,11 @@ const routes = [
   {
     path: '/',
     component: Home,
+    exact: true
+  },
+  {
+    path: '/profile',
+    component: Profile,
     exact: true
   }
 ]

@@ -41,6 +41,10 @@ function Home() {
 
         <p>Your are in {isPortrait ? 'portrait' : 'landscape'} orientation</p>
       {isRetina && <p>You are retina</p>}
+
+      <br/>
+
+      <Link to="/profile">View Profile</Link>
     </div>
   );
 }
