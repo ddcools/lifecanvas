@@ -1,0 +1,11 @@
+@media screen and (min-width: 786px) {
+  .home-page-wrapper {
+    background-color: grey;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+  .home-page-wrapper {
+    background-color: lightblue;
+  }
+}
