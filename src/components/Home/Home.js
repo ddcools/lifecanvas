@@ -43,8 +43,9 @@ function Home() {
       {isRetina && <p>You are retina</p>}
 
       <br/>
-
       <Link to="/profile">View Profile</Link>
+      <br/>
+      <Link to="/welcome">Welcome Page</Link>
     </div>
   );
 }
