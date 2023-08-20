@@ -1,0 +1,15 @@
+@media screen and (min-width: 786px) {
+  .home-page-wrapper {
+    background: linear-gradient(
+      135deg,
+      rgba(147, 152, 180, 0.8),
+      rgba(206, 94, 131, 0.8)
+    );
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+  .home-page-wrapper {
+    background-color: lightblue;
+  }
+}

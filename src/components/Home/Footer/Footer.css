@@ -1,0 +1,29 @@
+/* Example Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}

@@ -1,0 +1,30 @@
+/* Example Contact Us Styles */
+#contact {
+  padding: 50px;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
