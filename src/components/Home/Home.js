@@ -10,13 +10,9 @@ function Home() {
 
   return(
     <div className="home-page-wrapper">
-      <span>Home Page</span>
-      <br/>
       <span>
         <Link to="/signup">Signup</Link>
       </span>
-      <br/>
-      <Link to="/profile">View Profile</Link>
       <br/>
       <Link to="/welcome">Welcome Page</Link>
       <VisitorCard />

@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: '/',
-    component: Home,
+    component: Welcome,
     exact: true
   },
   {
@@ -40,6 +40,11 @@ const routes = [
   {
     path: '/features',
     component: Features,
+    exact: true
+  },
+  {
+    path: '/home',
+    component: Home,
     exact: true
   }
 ]
