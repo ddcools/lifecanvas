@@ -1,22 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
   return (
     <header>
-      {/* Logo */}
-      <div className="logo">Your Logo</div>
-      
-      {/* Navigation */}
       <nav>
-        <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
+        <Link to="/features">Features</Link>
+        <Link to="/about">About Us</Link>
+        <Link to="/contact">Contact Us</Link>
       </nav>
-      
-      {/* CTA Button */}
-      <button className="cta-button">Get Started</button>
     </header>
   );
 }

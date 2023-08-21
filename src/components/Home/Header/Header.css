@@ -1,46 +1,26 @@
-/* Example Header Styles */
+/* Header Styles */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
   background-color: #333;
   color: #fff;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-nav ul {
-  list-style: none;
+  padding: 20px;
   display: flex;
+  justify-content: flex-end; /* Align to the top right corner */
+  align-items: center;
 }
 
-nav li {
-  margin-right: 20px;
+nav {
+  display: flex;
+  align-items: center;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
+  font-size: 18px;
+  margin: 0 10px;
   transition: color 0.3s;
 }
 
 nav a:hover {
   color: #f1f1f1;
-}
-
-.cta-button {
-  background-color: #f1f1f1;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #ddd;
 }

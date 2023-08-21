@@ -1,29 +1,49 @@
-/* Example Footer Styles */
+/* Footer Styles */
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Change to fixed position */
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  box-sizing: border-box; /* Include padding and border in width calculations */
+  z-index: 1; /* To ensure footer is above the page content */
 }
 
-footer ul {
+ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  display: flex;
 }
 
-footer ul li {
-  display: inline-block;
+ul li {
   margin-right: 20px;
+  font-size: 16px;
 }
 
-footer a {
+ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.social-media-icons {
+  display: flex;
 }
 
 .social-media-icons a {
   color: #fff;
   font-size: 20px;
   margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Position Footer to Bottom */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 60px; /* Add padding-bottom instead of margin-bottom */
 }

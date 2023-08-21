@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ApiHelper from '../Helpers/ApiHelper';
+import Header from '../Home/Header/Header';
+import Footer from '../Home/Footer/Footer';
 import './Welcome.css';
 
 function Welcome() {
@@ -21,35 +23,8 @@ function Welcome() {
 
    return(
       <div>
-         <header id="header">
-           Welcome
-         </header>
-
-         <section id="hero">
-            {/* Hero section content */}
-         </section>
-
-         <main id="main">
-            <section id="about" className="about">
-            {/* About section content */}
-            </section>
-
-            <section id="why-us" className="why-us section-bg">
-            {/* Why Us section content */}
-            </section>
-
-            <section className="faq">
-            {/* FAQ section content */}
-            </section>
-
-            <section id="contact" className="contact section-bg">
-            {/* Contact Us section content */}
-            </section>
-         </main>
-
-         <footer id="footer">
-            {/* Footer content */}
-         </footer>
+         <Header/>
+         <Footer/>
       </div>
    )
 };
