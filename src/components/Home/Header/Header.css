@@ -1,11 +1,21 @@
-/* Header Styles */
 header {
-  background-color: #333;
+  background-color: #2d8f8f;
   color: #fff;
-  padding: 20px;
+  padding: 12px;
   display: flex;
-  justify-content: flex-end; /* Align to the top right corner */
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
 }
 
 nav {
